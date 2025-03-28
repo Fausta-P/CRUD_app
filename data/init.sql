@@ -1,3 +1,4 @@
+
 CREATE DATABASE test;
 use test;
 CREATE TABLE users (
@@ -6,6 +7,5 @@ CREATE TABLE users (
                        lastname VARCHAR(30) NOT NULL,
                        email VARCHAR(50) NOT NULL,
                        age INT(3),
-                       location VARCHAR(50),
-                       date TIMESTAMP
+                       location VARCHAR(50)
 );
