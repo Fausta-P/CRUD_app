@@ -15,7 +15,6 @@ if (isset($_POST['submit'])) {
             "email" => escape($_POST['email']),
             "age" => escape($_POST['age']),
             "location" => escape($_POST['location']),
-            "date" => escape($_POST['date'])
         ];
         $sql = "UPDATE users
 SET id = :id,
